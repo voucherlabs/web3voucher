@@ -1,0 +1,23 @@
+{
+  "name": "web3voucher",
+  "version": "1.0.0",
+  "description": "Smart contracts for Klaytn Hackathon in Nov 2023, these includes but not limit to Data-registry, Voucher, ERC721 standard collection.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "klaytn",
+    "hackathon",
+    "voucher"
+  ],
+  "author": "Web3Voucher",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^4.9.3",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.19.1",
+    "hardhat-contract-sizer": "^2.10.0"
+  }
+}
